@@ -36,6 +36,7 @@ class LinkedList {
       }
       current = current.next;
     }
+
     return null;
   }
 
@@ -46,6 +47,7 @@ class LinkedList {
       result.push(current.data);
       current = current.next;
     }
+
     return result;
   }
 
